@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-schedule:
-- cron: "42 14 * * *"
+#schedule:
+#- cron: "42 14 * * *"
 
 jobs:
   autogreen:
